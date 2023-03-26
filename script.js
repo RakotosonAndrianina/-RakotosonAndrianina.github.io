@@ -9,9 +9,8 @@ const toggleText = document.querySelector(".toggle-text")
 const granChef1 = document.querySelector(".grand1");
 const granChef2 = document.querySelector(".grand2");
 const granChef3 = document.querySelector(".grand3");
-        console.log(right)
+
         window.addEventListener("scroll", () =>{
-            console.log(window.scrollY);
             if(window.scrollY > 120){
                 left.style.transform = "translateX(0)";
                 left.style.opacity = "1";
@@ -22,7 +21,6 @@ const granChef3 = document.querySelector(".grand3");
         })
 
         window.addEventListener("scroll", () =>{
-            console.log(window.scrollY);
             if(window.scrollY > 120){
                 right.style.transform = "translateX(0)";
                 right.style.opacity = "1";
