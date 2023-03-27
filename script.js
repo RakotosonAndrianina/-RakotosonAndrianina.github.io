@@ -37,31 +37,6 @@ const granChef3 = document.querySelector(".grand3");
         })
 
 
-        window.addEventListener('scroll', () =>{
-            if(window.scrollY > 1950){
-                granChef1.style.transform = "translateY(0)";
-                granChef1.style.opacity = "1";
-            }else{
-                
-            }
-        })
-
-        window.addEventListener('scroll', () =>{
-            if(window.scrollY > 1990){
-                granChef2.style.transform = "translateY(0)";
-                granChef2.style.opacity = "1";
-            }else{
-            }
-        })
-
-
-        window.addEventListener('scroll', () =>{
-            if(window.scrollY > 2050){
-                granChef3.style.transform = "translateY(0)";
-                granChef3.style.opacity = "1";
-            }else{
-                
-            }
-        })
+       
 
 
