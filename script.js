@@ -31,10 +31,7 @@ const granChef3 = document.querySelector(".grand3");
         })
 
 
-        card1.addEventListener("click", () =>{
-            // petiText.classList.toggle("clicked");
-            petiText.style.transform = "translateY(-200px)";
-        })
+
 
 
        
