@@ -406,6 +406,8 @@ header .nav button{
     .section3{
         height: 490vh;
         background: url(./image/bg2.jpg) center/cover;
+        /* margin: 0;
+        padding: 0; */
     }
 }
 /* Nexus 10 */
@@ -468,6 +470,21 @@ header .nav button{
         /* background-size: cover; */
         width: 400px;
         height: 456vh;
+    }
+}
+/* mon telephon */
+@media screen and (max-width:382px){
+    .section3 {
+        /* background-size: cover; */
+        height: 531vh;
+    }
+    .section3 .cards {
+        padding: 20px;
+        margin: 20px 0;
+        width: 359px;
+    }
+    .section2 .left {
+        top: 683px;
     }
 }
 /* 365px */
