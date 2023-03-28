@@ -356,7 +356,7 @@ header .nav button{
         cursor: pointer;
         z-index: 30;
     }
-    header #toggle{
+    header #toggles{
         display:block;
         position:relative;
         transform: translate(4px, 1px);
@@ -364,7 +364,7 @@ header .nav button{
         z-index: 30;
     }
 
-    header #toggle::before{
+    header #toggles::before{
         content:"";
         position: absolute;
         height:2px;
@@ -375,7 +375,7 @@ header .nav button{
         transition: 0.9s;
     }
 
-    header #toggle::after{
+    header #toggles::after{
         content:"";
         position: absolute;
         height:2px;
@@ -385,14 +385,14 @@ header .nav button{
         transition: 0.9s;
     }
 
-    .open header #toggle::before{
+    .open header #toggles::before{
         /* content: "";
         position: absolute; */
         transform: translate(0px, 8px) rotate(128deg);
         box-shadow: 0 0 0 white;
     }
 
-    .open header #toggle::after{
+    .open header #toggles::after{
         transform:translate(0px, -6px) rotate(233deg);
     }
     header .nav{
