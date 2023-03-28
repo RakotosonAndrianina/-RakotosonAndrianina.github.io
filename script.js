@@ -4,13 +4,13 @@ const card1 = document.querySelector(".card1");
 const card2 = document.querySelector('.card2');
 const card3 = document.querySelector(".card3");
 const card4 = document.querySelector('.card4');
-const petiText = document.querySelector(".petit-text")
-const toggleText = document.querySelector(".toggle-text")
-const granChef1 = document.querySelector(".grand1");
-const granChef2 = document.querySelector(".grand2");
-const granChef3 = document.querySelector(".grand3");
+const petiText = document.querySelector(".petit-text");
+const toggleText = document.querySelector(".toggle-text");
+const togglebarre = document.querySelector('.btn');
+const bodybarre = document.querySelector('body');
 
         window.addEventListener("scroll", () =>{
+            // console.log(window.scrollY);
             if(window.scrollY > 120){
                 left.style.transform = "translateX(0)";
                 left.style.opacity = "1";
@@ -21,6 +21,7 @@ const granChef3 = document.querySelector(".grand3");
         })
 
         window.addEventListener("scroll", () =>{
+            console.log(window.scrollY);
             if(window.scrollY > 120){
                 right.style.transform = "translateX(0)";
                 right.style.opacity = "1";
@@ -30,10 +31,10 @@ const granChef3 = document.querySelector(".grand3");
             }
         })
 
+        togglebarre.addEventListener('click', () =>{
+            bodybarre.classList.toggle("open");
+        })
 
 
-
-
-       
 
 
